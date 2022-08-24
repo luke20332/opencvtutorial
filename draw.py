@@ -59,8 +59,8 @@ cv.imshow("line", blank)
 """
 
 # 6 text on an image
-# params are image, text, origin of text , fontFace, scale of text, color, thicknees
-cv.putText(blank, "hello", (225,225), cv.FONT_HERSHEY_TRIPLEX, 1.0, (255,255,255), thickness = 2)
+# params are image, text, origin of text(x,y of base) , fontFace, scale of text, color, thicknees
+cv.putText(blank, "hello my name is jason", (0,255), cv.FONT_HERSHEY_COMPLEX, 1.0, (255,255,255), thickness = 2)
 cv.imshow("text", blank)
 
 
