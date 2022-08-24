@@ -34,7 +34,7 @@ cv.imshow("translated", translated)
 # can specify any rotation point, default is centre
 
 def rotate(img, angle, rotPoint=None):
-  (height, width) = img.shape[:2] # set the height and width as the 2 last values
+  (height, width) = img.shape[:2] # set the height and width as the first values
 
   if rotPoint is None:
     rotPoint = (width//2, height//2) # if not defined, it is the centre
